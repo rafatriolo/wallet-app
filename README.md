@@ -16,7 +16,7 @@ Certifique-se de ter os seguintes itens instalados:
 - Testes automatizados com Pytest
 - Dockerfile e Docker Composer 
 - Utilizei o Flake8 como Linter e o Black para Formatação de Código
-- Utilizei o JWT Token para dar mais segurança nas requisições e fiz também um refresh token que expira tokens antigos.
+- Utilizei o JWT Token, pois alem de proteger as rotas, da mais segurança nas requisições e fiz também um refresh token que expira tokens antigos.
 - Foi feito em Python com Django e o Rest Framework do Django. (preferi o Python do que o C# pois é bem mais simples e se adequa melhor ao projeto)
 - Utilizei o PostgreSQL pois ele é melhor no tratamento de objetos JSON do que o MYSQL ou o SQLite por exemplo.
 
