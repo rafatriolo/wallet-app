@@ -1,0 +1,30 @@
+# Ambiente virtual
+venv/
+*.pyc
+__pycache__/
+*.pyo
+
+# Arquivos de configuração sensíveis
+.env
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Arquivos de banco de dados locais
+db.sqlite3
+
+# Arquivos de sistema
+.DS_Store
+.idea/
+.vscode/
+
+# Arquivos de Docker temporários
+*.pid
+
+# Arquivos de migração (opcional, se quiser evitar migrações locais)
+*/migrations/*.py
+!*/migrations/__init__.py
+*apps/walletapp/migrations/*.py
+*apps/walletapp/migrations/__init__.py
